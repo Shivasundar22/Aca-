@@ -1,0 +1,121 @@
+body {
+    background-color: rgba(208, 321, 217, 0.23);
+    font-family: "roboto", sans-serif;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(87, 47, 198);
+}
+
+img {
+    height: 125px;
+}
+
+header {
+    text-align: center;
+    padding: 32px;
+}
+
+header img {
+    text-align: center;
+    width: 300px;
+    letter-spacing: 2px;
+    max-width: 100%;
+}
+
+main {
+    background-color: rgb(122, 74, 218);
+    padding: 32px;
+    margin: 32px auto;
+    width: 700px;
+    border-radius: 18px;
+    color: rgb(248, 255, 231);
+    box-shadow: 5px 5px 8px 0.9px rgb(6, 0, 0);
+    max-width: 100%;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 6px solid transparent;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(101, 49, 220);
+    background-color: rgb(255, 237, 167);
+    padding: 3px, 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+a:hover,
+a:active {
+
+    background-color: rgb(103, 205, 96);
+    cursor: wait;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: rgb(101, 49, 220);
+    margin-top: 30px;
+
+}
+
+footer a {
+    padding: 11px 20px;
+    border-radius: 11px;
+    background-color: rgb(248, 255, 85);
+    color: rgb(11, 116, 120);
+}
+
+footer a:hover,
+footer a:active {
+    padding: 13px;
+    background-color: rgb(204, 209, 63, 0.8);
+}
+
+.cl {
+    color: rgb(255, 237, 167);
+    border-color: rgb(248, 255, 85);
+
+}
+
+.hl {
+    color: rgb(255, 237, 167);
+    border-color: rgb(248, 255, 85);
+
+}
+
+
+@media only screen and (min-width: 360px) {
+    body {
+        font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+
+    main {
+        width: 70%; /* Adjust the width of the main content for smaller screens */
+        padding: 16px; /* Adjust padding for smaller screens */
+        margin: 16px auto; /* Adjust margin for smaller screens */
+    }
+
+    header img {
+        width: 200px; /* Adjust the logo size for smaller screens */
+    }
+
+ 
+}
